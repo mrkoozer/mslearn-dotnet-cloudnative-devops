@@ -51,3 +51,4 @@ internal static class DbInitializer
         await context.SaveChangesAsync();
     }
 }
+new Product {  Name = "Camping Tent 2", Description = "This updated tent is improved and cheaper, perfect for your next trip.", Price = 79.99m, ImageUrl = "product9.png" },
